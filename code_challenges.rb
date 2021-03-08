@@ -60,7 +60,7 @@ album3 = 'Abbey Road'
 # #use delete method to remove all vowels stored in variable
 #
 def no_vowels string
-  string.delete 'aeiou'
+  string.delete 'aeiouAEIOU'
 end
 p no_vowels album1
 p no_vowels album2
